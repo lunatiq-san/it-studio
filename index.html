@@ -20,11 +20,15 @@
       <div class="container">
         <nav>
           <ul class="nav-list">
-            <li class="nav-link link">Главная</li>
-            <li class="nav-link link">Наши проекты</li>
-            <li class="nav-link link">Услуги</li>
-            <li class="nav-link link">Новости</li>
-            <li class="nav-link link">Контакты</li>
+            <li class="nav-link">
+              <a class="link current" href="./index.html">Главная</a>
+            </li>
+            <li class="nav-link">
+              <a class="link" href="#our-projects">Наши проекты</a>
+            </li>
+            <li class="nav-link"><a class="link" href="">Услуги</a></li>
+            <li class="nav-link"><a class="link" href="">Новости</a></li>
+            <li class="nav-link"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -35,9 +39,10 @@
         <div class="container">
           <h1 class="hero-title">Передовая IT студия</h1>
           <p class="hero-text">
-            Мы создаем легкие решения сложных задач и проблем
+            Мы создаем легкие решения <br />
+            сложных задач и проблем
           </p>
-          <a href="" class="btn-link btn">Наши проекты</a>
+          <a href="#our-projects" class="btn-link btn">Наши проекты</a>
         </div>
       </section>
 
@@ -59,11 +64,13 @@
                 src="./images/icon/project.svg"
                 alt="Иконка"
               />
-              <h3 class="service-title">Создание сайтов</h3>
-              <p class="service-text">
-                Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                вэб-дизайне.
-              </p>
+              <div class="service-content">
+                <h3 class="service-title">Создание сайтов</h3>
+                <p class="service-text">
+                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                  вэб-дизайне.
+                </p>
+              </div>
             </li>
             <li class="service-link link">
               <img
@@ -71,11 +78,13 @@
                 src="./images/icon/project.svg"
                 alt="Иконка"
               />
-              <h3 class="service-title">Создание сайтов</h3>
-              <p class="service-text">
-                Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                вэб-дизайне.
-              </p>
+              <div class="service-content">
+                <h3 class="service-title">Создание сайтов</h3>
+                <p class="service-text">
+                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                  вэб-дизайне.
+                </p>
+              </div>
             </li>
             <li class="service-link link">
               <img
@@ -83,14 +92,16 @@
                 src="./images/icon/project.svg"
                 alt="Иконка"
               />
-              <h3 class="service-title">Создание сайтов</h3>
-              <p class="service-text">
-                Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                вэб-дизайне.
-              </p>
+              <div class="service-content">
+                <h3 class="service-title">Создание сайтов</h3>
+                <p class="service-text">
+                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                  вэб-дизайне.
+                </p>
+              </div>
             </li>
           </ul>
-          <a class="services-btn btn" href=""></a>
+          <a class="services-btn btn" href="#all-works">Все услуги</a>
         </div>
       </section>
 
@@ -119,7 +130,7 @@
           </div>
           <div class="about-projects">
             <ul class="projects">
-              <li class="project-item">
+              <li class="project-item link">
                 <img
                   class="project-icon"
                   src="./images/icon/code.svg"
@@ -128,7 +139,7 @@
                 <span class="project-number">125</span>
                 <p class="project-text">Our projects</p>
               </li>
-              <li class="project-item">
+              <li class="project-item link">
                 <img
                   class="project-icon"
                   src="./images/icon/code.svg"
@@ -137,7 +148,7 @@
                 <span class="project-number">125</span>
                 <p class="project-text">Our projects</p>
               </li>
-              <li class="project-item">
+              <li class="project-item link">
                 <img
                   class="project-icon"
                   src="./images/icon/code.svg"
@@ -146,7 +157,7 @@
                 <span class="project-number">125</span>
                 <p class="project-text">Our projects</p>
               </li>
-              <li class="project-item">
+              <li class="project-item link">
                 <img
                   class="project-icon"
                   src="./images/icon/code.svg"
@@ -155,7 +166,7 @@
                 <span class="project-number">125</span>
                 <p class="project-text">Our projects</p>
               </li>
-              <li class="project-item">
+              <li class="project-item link">
                 <img
                   class="project-icon"
                   src="./images/icon/code.svg"
@@ -170,7 +181,7 @@
       </section>
 
       <!-- Works -->
-      <section class="works">
+      <section class="works" id="all-works">
         <div class="container">
           <div class="works-row">
             <h2 class="works-title">
@@ -179,7 +190,7 @@
             <a class="works-btn btn" href="">Все услуги</a>
           </div>
           <ul class="works-list">
-            <li class="item">
+            <li class="item link">
               <img
                 class="works-img"
                 src="./images/our-services.jpg"
@@ -195,7 +206,7 @@
               </p>
               <a href="" class="works-link link">Подробнее</a>
             </li>
-            <li class="item">
+            <li class="item link">
               <img
                 class="works-img"
                 src="./images/our-services.jpg"
@@ -211,7 +222,7 @@
               </p>
               <a href="" class="works-link link">Подробнее</a>
             </li>
-            <li class="item">
+            <li class="item link">
               <img
                 class="works-img"
                 src="./images/our-services.jpg"
@@ -234,35 +245,35 @@
       <!-- Projects -->
       <section class="projects">
         <div class="container">
-          <h2 class="projects-title">Наши проекты</h2>
+          <h2 class="projects-title" id="our-projects">Наши проекты</h2>
           <p class="projects-text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
             латинице с начала XVI века.
           </p>
           <ul class="projects-list">
-            <li class="item">
+            <li class="item link">
               <img
                 class="projects-img"
                 src="./images/our-projects.jpg"
                 alt="Наш проект"
               />
             </li>
-            <li class="item">
+            <li class="item link">
               <img
                 class="projects-img"
                 src="./images/our-projects.jpg"
                 alt="Наш проект"
               />
             </li>
-            <li class="item">
+            <li class="item link">
               <img
                 class="projects-img"
                 src="./images/our-projects.jpg"
                 alt="Наш проект"
               />
             </li>
-            <li class="item">
+            <li class="item link">
               <img
                 class="projects-img"
                 src="./images/our-projects.jpg"
@@ -309,7 +320,7 @@
     <footer class="page-footer">
       <div class="container">
         <ul class="footer-nav">
-          <li class="footer-contacts">
+          <li class="footer-contacts link">
             <h3 class="footer-title">Контактная информация</h3>
             <address class="footer-address">
               <ul>
@@ -323,7 +334,7 @@
               </ul>
             </address>
           </li>
-          <li class="footer-link">
+          <li class="footer-link link">
             <h3 class="footer-title">Основные ссылки</h3>
             <nav>
               <ul>
@@ -334,7 +345,7 @@
               </ul>
             </nav>
           </li>
-          <li class="footer-projects">
+          <li class="footer-projects link">
             <h3 class="footer-title">Наши проекты</h3>
             <ul>
               <li class="link">РосНано</li>
@@ -343,7 +354,7 @@
               <li class="link">ТЭЦ Калининграда</li>
             </ul>
           </li>
-          <li class="footer-social">
+          <li class="footer-social link">
             <h3 class="footer-title">Социальные сети</h3>
             <ul>
               <li class="link">VK.com</li>
