@@ -1,0 +1,40 @@
+/* Основной цвет текста #999999 */
+/* Второстепенный цвет текста #000000 */
+/* Белый цвет текста #FFFFFF */
+/* Цвет заголовков #323232 */
+/* Цвет акцента #4985FF */
+/* Второстепенный цвет фона #F6F6F8 */
+:root {
+  --text-color-gray: #999999;
+  --text-color-black: #000000;
+  --title-color-dark: #323232;
+  --color-white: #ffffff;
+  --accent-color: #4985ff;
+  --secondary-bg-color: #f6f6f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-white);
+  color: var(--text-color-gray);
+}
