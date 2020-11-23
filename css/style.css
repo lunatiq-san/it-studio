@@ -154,8 +154,6 @@ li {
 
   font-size: 16px;
   line-height: 1.563;
-
-  color: var(--text-color-gray);
 }
 .services-list {
   display: flex;
@@ -184,26 +182,61 @@ li {
 .services-btn {
 }
 .about {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: var(--secondary-bg-color);
 }
+
 .about-content {
+  display: flex;
+  margin-bottom: 90px;
 }
+
 .about-title {
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--title-color-dark);
 }
 .about-text {
+  margin-bottom: 30px;
+
+  font-size: 16px;
+  line-height: 1.56;
 }
 .about-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--accent-color);
 }
 .about-img {
+  margin-left: 120px;
 }
 .about-projects {
+  border-top: 1px solid #e0e0e0;
 }
 .projects {
+  display: flex;
+  justify-content: space-evenly;
 }
 .project-item {
 }
 .project-icon {
+  margin-right: 20px;
 }
 .project-number {
+  display: inline-block;
+  margin-bottom: 10px;
+
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--text-color-black);
 }
 .project-text {
 }
