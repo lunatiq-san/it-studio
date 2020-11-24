@@ -368,12 +368,24 @@ li {
 }
 .projects-img {
 }
+
+/* Video */
 .video {
+  background-image: url('../images/bg-video.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 85px;
 }
 .video-title {
+  margin-bottom: 30px;
 }
 .video-text {
+  margin-bottom: 70px;
 }
+
+/* Subscribe */
 .subscribe {
 }
 .subscribe-title {
