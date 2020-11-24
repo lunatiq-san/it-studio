@@ -88,7 +88,7 @@ li {
   text-decoration: none;
 }
 
-.link {
+.nav-link .link {
 }
 
 /* Main */
@@ -101,7 +101,7 @@ li {
   padding-bottom: 335px;
   text-align: center;
 
-  background-color: var(--title-color-dark);
+  background-image: url('../images/bg.jpg');
 }
 .hero-title {
   margin-bottom: 20px;
@@ -237,6 +237,7 @@ li {
   margin-left: 120px;
 }
 .about-projects {
+  padding-top: 70px;
   border-top: 1px solid #e0e0e0;
 }
 
@@ -376,6 +377,7 @@ li {
 }
 .video-text {
   margin-bottom: 70px;
+  color: var(--title-color-dark);
 }
 
 /* Subscribe */
