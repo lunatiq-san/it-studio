@@ -43,6 +43,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--color-white);
   color: var(--text-color-gray);
+  font-size: 16px;
 }
 
 .container {
@@ -68,7 +69,6 @@ li {
   justify-content: flex-end;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
 
   color: var(--color-white);
@@ -107,7 +107,6 @@ li {
   margin-bottom: 20px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
 
   text-align: center;
@@ -173,7 +172,6 @@ li {
 .services-text {
   margin-bottom: 70px;
 
-  font-size: 16px;
   line-height: 1.563;
 }
 .services-list {
@@ -227,12 +225,10 @@ li {
 .about-text {
   margin-bottom: 30px;
 
-  font-size: 16px;
   line-height: 1.56;
 }
 .about-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
 
   color: var(--accent-color);
@@ -317,14 +313,12 @@ li {
 .works-text {
   margin-bottom: 30px;
 
-  font-size: 16px;
   line-height: 1.56;
 
   color: var(--text-color-gray);
 }
 .works-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
 
   color: var(--accent-color);
@@ -348,7 +342,6 @@ li {
   margin-bottom: 70px;
 }
 .projects-text {
-  font-size: 16px;
   line-height: 1.56;
 }
 .projects-list {
@@ -387,16 +380,56 @@ li {
 
 /* Subscribe */
 .subscribe {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  text-align: center;
 }
 .subscribe-title {
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--text-color-black);
 }
 .subscribe-text {
+  margin-bottom: 30px;
 }
 .subscribe-input {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 35px;
 }
 .input {
+  padding: 13px 36px 15px;
+
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: left;
+
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 }
 .btn-form {
+  display: inline-block;
+  padding: 13px 36px 15px;
+
+  font-weight: 500;
+  line-height: 1.25;
+
+  color: var(--color-white);
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  text-decoration: none;
 }
 .subscribe-subtext {
 }
