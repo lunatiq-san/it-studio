@@ -113,6 +113,7 @@ li {
   margin-top: 100px;
 
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.25;
   text-align: center;
 
@@ -133,6 +134,9 @@ li {
 .btn {
   display: inline-block;
   padding: 13px 36px 15px;
+
+  font-weight: 500;
+  line-height: 1.25;
 
   color: var(--color-white);
   background-color: var(--accent-color);
@@ -189,6 +193,7 @@ li {
 
 .service-link {
   display: flex;
+  width: calc((100% - 60px) / 3);
 }
 
 .service-link:not(:last-child) {
@@ -196,18 +201,24 @@ li {
 }
 
 .service-icon {
+  display: block;
   margin-right: 15px;
 }
 
 .service-title {
   margin-bottom: 12px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--text-color-black);
   text-align: left;
 }
 
 /* About */
 .about {
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 85px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -217,6 +228,7 @@ li {
 }
 
 .about-title {
+  margin-top: 52px;
   margin-bottom: 40px;
 
   font-weight: 700;
@@ -274,6 +286,9 @@ li {
   background-color: var(--color-white);
 }
 
+.works .container {
+  border-bottom: 1px solid #e0e0e0;
+}
 .works-row {
   display: flex;
   margin-bottom: 70px;
@@ -445,6 +460,11 @@ li {
   border-bottom-right-radius: 30px;
 
   text-decoration: none;
+}
+
+.subscribe-subtext {
+  font-size: 13px;
+  line-height: 1.62;
 }
 
 /* Footer */
