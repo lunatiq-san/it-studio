@@ -60,8 +60,7 @@ li {
 
 /* Header */
 .page-header {
-  background-color: var(--title-color-dark);
-  border: 1px solid #a1a1a1;
+  border-bottom: 1px solid #a1a1a1;
 }
 
 .nav-list {
@@ -83,9 +82,19 @@ li {
 .nav-link:not(:last-child) {
   margin-right: 40px;
 }
+
 .nav-link a {
   color: var(--color-white);
   text-decoration: none;
+}
+
+.nav-link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 2px solid var(--color-white);
 }
 
 /* Hero */
@@ -95,13 +104,16 @@ li {
   text-align: center;
 
   background-image: url('../images/bg.jpg');
+  background-size: cover;
+  margin-top: -104px;
 }
+
 .hero-title {
   margin-bottom: 20px;
+  margin-top: 100px;
 
   font-weight: 500;
   line-height: 1.25;
-
   text-align: center;
 
   color: var(--color-white);
